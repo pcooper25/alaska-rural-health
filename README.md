@@ -56,6 +56,8 @@ The SDOH Database for county and census tract files contain ACS 5-year estimates
 
 ### Data Cleaning: *Health_Clean.py*
 
+Because of the extensive and detailed nature of this data, the datafile is too large to be committed in a repository.
+
 This file is the majority of the cleaning for this large database, employing data cleaning strategies to make the dataset more readable and easier to work with. The original dataset encompasses all 50 states and their respective counties, which is then cleaned to only hold the chosen variables and all counties/boroughs in Alaska. Below is an outline of the steps taken in this file:
 
 1. The necessary packages are imported, specifically the pandas library for data manipulation.
