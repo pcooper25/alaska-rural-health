@@ -52,9 +52,11 @@ calculated using population weighted tract centroids
 * POS_DIST_ALC_TRACT: Distance in miles to the nearest hospital with alcohol and
 drug abuse inpatient care, calculated using population weighted tract centroids
 
-The SDOH Database for county and census tract files contain ACS 5-year estimates for every year from 2009 to 2020. The original csv data is located in the **social_determinants_2020.csv** 
+The SDOH Database for county and census tract files contain ACS 5-year estimates for every year from 2009 to 2020. 
 
 ### Data Cleaning: *Health_Clean.py*
+
+* Due to the extensive and detailed nature of this database, the file is too large to be stored on the repository. However, it is publically available to download for use on [Social Determinants of Health Database](https://www.ahrq.gov/sdoh/data-analytics/sdoh-data.html). From there, please choose Census Tract Data for 2020, and then save as a CSV file renamed as **"social_determinants_2020.csv"** This step can be replicated or altered for the different file types and years, depending on user preferance. Please complete this step before following this code. 
 
 This file is the majority of the cleaning for this large database, employing data cleaning strategies to make the dataset more readable and easier to work with. The original dataset encompasses all 50 states and their respective counties, which is then cleaned to only hold the chosen variables and all counties/boroughs in Alaska. Below is an outline of the steps taken in this file:
 
